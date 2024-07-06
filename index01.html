@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boleta de viaje</title> 
+    <link rel="stylesheet.js" href="/css/index.css">
+    <script src="/js/index.js"></script>
+</head>
+<body>
+    <div class="head">
+        <div>
+            <table>
+                <tr>
+                    <td style="width:40%;">
+                        <img src="img/logo.png"width="60%" alt="">
+                    </td>
+                    <td>
+                        <img src="img/banner02.png" width="60%" alt="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div> 
+    <div>
+        <h3>El placer en viajar en Bus</h3>
+        <div class="contenido" style="width: 100%;">
+
+            <div>
+                <img src="img/unidad.png"  width="800px" alt="">
+            </div>
+            <div class="formulario">
+                <h3>boleta de viaje</h3>
+                <table>
+                    <tr>
+                        <td class="fecha">Fecha</td>
+                        <td><input type="date" id="fecha"></td>
+                        <td class="ruc">RUC</td>
+                        <td>75521546562165</td>
+                    </tr>
+                    <tr>
+                        <td class="dni">DNI</td>
+                        <td><input type="text" id="DNI"></td>
+                        <td class="pasajero">PASAJERO</td>
+                        <td><input type="text" id="pasajero"></td>
+                    </tr>
+                    <tr>
+                        <td class="ruta">RUTA</td>
+                        <td><select name="" id="ruta">
+                            <option value="1" id="lima-mala">lima-Mala</option>
+                            <option value="2" id="lima-cañete">Lima-Cañete</option>
+                            <option value="3" id="lima-chincha">Lima-Chincha</option>
+                            <option value="4" id="lima-pisco">Lima-Pisco</option>
+                        </select></td>
+                        <td class="precio">PRECIO</td>
+                        <td><input type="text" id="precio"></td>
+                    </tr>
+                    <tr>
+                        <td class="cantidad">CANTIDAD</td>
+                        <td><input type="text" id="cantidad"></td>
+                    </tr>
+                    <tr>
+                        <td class="servicio">SERVICIO</td>
+                        <td><select name="" id="servicio">
+                            <option value="1" id="economico">economico</option>
+                            <option value="2" id="ejecutivo">ejecutivo</option>
+                            <option value="2" id="presidencial">presidencial</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="medio-de-pago">MEDIO DE PAGO</td>
+                        <td><select name="" id="mediopago">
+                            <option value="1" id="efectivo">efectivo</option>
+                            <option value="2" id="visa">visa</option>
+                            <option value="3" id="debito">debito</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="total-soles">total S/</td>
+                        <td><input type="text" id="xsoles"></td>
+                        <td class="total-dolares">total US</td>
+                        <td><input type="text" id="xdolares"></td>
+                    </tr>
+                    <tr>
+                        <td><button class="calcular" onclick="calcular();">calcular</button></td>
+                        <td><button class="limpiar" onclick="limpiar();">limpiar</button></td>
+                        <td><button class="imprimir" onclick="imprimir();">imprimir</button></td>
+                    </tr>    
+                </table>              
+            </div>       
+        </div>                            
+    </div>
+</body>
+</html>
+        
+
+
+
+
+
+
+
+    

@@ -1,0 +1,54 @@
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    margin: 0 auto;
+    width: 75%;
+    border: 2px black solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.rico.cuerpo.mmoreno.bb{
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 75%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.contenido{
+    display: block;
+}
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contenido > div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+  }
+  .tablero td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .tablero{
+    margin: 0 auto;
+    width: 98%;
+    border-collapse: collapse;
+    margin-right: 20px;
+  }
+  .btn.btn-success{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  select{
+    font-family: 'Times New Roman', Times, serif;
+  }
